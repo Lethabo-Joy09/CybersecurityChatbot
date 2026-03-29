@@ -29,22 +29,28 @@ namespace CybersecurityChatbot
                 Console.Write("\n💬 You: ");
                 string? userInput = Console.ReadLine()?.Trim();
 
+                // Check for empty input
                 if (string.IsNullOrWhiteSpace(userInput))
                 {
                     _uiResponder.DisplayErrorMessage("I didn't quite understand that. Could you rephrase?");
                     continue;
                 }
 
-                string response = _responseHandler.GetResponse(userInput);
-
-                if (userInput.ToLower().Contains("exit") ||
-                    userInput.ToLower().Contains("quit") ||
-                    userInput.ToLower().Contains("bye"))
+                // Check for exit commands FIRST
+                string lowerInput = userInput.ToLower();
+                if (lowerInput == "exit" || lowerInput == "quit" || lowerInput == "bye")
                 {
                     isRunning = false;
+                    // Display goodbye message
+                    _uiResponder.DisplayBotMessage("Goodbye! Stay safe online! 🔒");
+                    // Break out of the loop immediately
+                    break;
                 }
 
+                // Get response for valid question
+                string response = _responseHandler.GetResponse(userInput);
                 _uiResponder.DisplayBotMessage(response);
+
                 await Task.Delay(500);
             }
         }
