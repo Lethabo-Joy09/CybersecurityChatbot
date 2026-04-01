@@ -42,7 +42,7 @@ namespace CybersecurityChatbot
                 {
                     isRunning = false;
                     // Display goodbye message
-                    _uiResponder.DisplayBotMessage("Goodbye! Stay safe online! 🔒");
+                    _uiResponder.DisplayBotMessage("Goodbye ! Stay safe online! 🔒");
                     // Break out of the loop immediately
                     break;
                 }
