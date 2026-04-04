@@ -23,7 +23,7 @@ namespace CybersecurityChatbot
 
             string userName = _uiResponder.DisplayWelcomeAndGetName();
             await _chatbotService.StartChatAsync(userName);
-
+            
             _uiResponder.DisplayExitMessage(userName);
         }
     }
