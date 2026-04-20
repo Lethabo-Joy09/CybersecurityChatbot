@@ -1,12 +1,12 @@
 # Cybersecurity Awareness Chatbot
 
-## 📌 Project Overview
+##  Project Overview
 This project is a console-based Cybersecurity Awareness Chatbot developed in C#.  
 The chatbot is designed to educate users about online safety by providing useful tips on topics such as password security, phishing, safe browsing, and two-factor authentication.
 
 ---
 
-## 🎯 Features
+##  Features
 - Interactive chatbot conversation
 - Personalised user greeting
 - ASCII art welcome screen
@@ -19,7 +19,7 @@ The chatbot is designed to educate users about online safety by providing useful
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 The project is divided into multiple classes for better organisation:
 
 ### Program.cs
@@ -58,7 +58,7 @@ The project is divided into multiple classes for better organisation:
 
 ---
 
-## ▶️ How to Run the Program
+##  How to Run the Program
 1. Open the project in Visual Studio
 2. Build the solution
 3. Run the program using:
@@ -67,7 +67,7 @@ The project is divided into multiple classes for better organisation:
 
 ---
 
-## 💬 Example Questions
+##  Example Questions
 Users can ask:
 - "How are you?"
 - "What can you do?"
@@ -78,14 +78,14 @@ Users can ask:
 
 ---
 
-## ⚠️ Input Validation
+##  Input Validation
 - Prevents empty input
 - Displays error messages for invalid input
 - Provides a default response for unknown queries
 
 ---
 
-## 🚪 Exit Commands
+##  Exit Commands
 To exit the chatbot, type:
 - exit
 - quit
@@ -93,7 +93,7 @@ To exit the chatbot, type:
 
 ---
 
-## 🎥 Demo
+##  Demo
 A demonstration video is included showing:
 - Program execution
 - User interaction
@@ -101,7 +101,7 @@ A demonstration video is included showing:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 This chatbot demonstrates the use of:
 - Object-Oriented Programming (OOP)
 - Classes and methods
@@ -113,5 +113,5 @@ It provides a simple but effective way to educate users about cybersecurity awar
 
 ---
 
-## 👩‍💻 Author
+##  Author
 Lethabo Joy Seemola
